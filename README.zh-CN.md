@@ -3,74 +3,78 @@
 </p>
 
 <p align="center">
-  Software student at Dalian University of Technology, building projects across AI systems, 3D vision, world models, and product-focused web experiences.
+  大连理工大学软件学院学生，关注 AI 系统、3D 重建、世界模型与有产品感的创意 Web 项目。
 </p>
 
 <p align="center">
-  <strong>English</strong> · <a href="./README.zh-CN.md">中文</a>
+  <a href="./README.md">English</a> · <strong>中文</strong>
 </p>
 
 <p align="center">
-  <a href="https://tianxingleo.com"><img src="https://img.shields.io/badge/Website-0f172a?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website badge" /></a>
-  <a href="mailto:tianxingleo@gmail.com"><img src="https://img.shields.io/badge/Email-1d4ed8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email badge" /></a>
-  <a href="https://github.com/tianxingleo?tab=repositories"><img src="https://img.shields.io/badge/Projects-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="Projects badge" /></a>
+  <a href="https://tianxingleo.com"><img src="https://img.shields.io/badge/个人网站-0f172a?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website badge" /></a>
+  <a href="mailto:tianxingleo@gmail.com"><img src="https://img.shields.io/badge/邮箱-1d4ed8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email badge" /></a>
+  <a href="https://github.com/tianxingleo?tab=repositories"><img src="https://img.shields.io/badge/项目列表-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="Projects badge" /></a>
 </p>
 
-## About Me
+## 关于我
 
-- Software student at Dalian University of Technology.
-- Interested in AI systems, 3D reconstruction, retrieval, world models, and creative coding.
-- I like turning research ideas into projects that are tangible, interactive, and easy to understand.
+- 大连理工大学软件学院学生。
+- 主要兴趣方向是 AI systems、3D reconstruction、retrieval、world models 和 creative coding。
+- 我更喜欢把研究想法做成真正能展示、能交互、能讲清楚价值的项目。
 
-## What I'm Building
+## 近期在做
 
-- **BrainDance / Flowing Light Memoir**: a long-term direction around reconstruction, understanding, retrieval, and interactive AI experiences.
-- **ACGTI**: an ACG-themed personality test project with stronger character, interaction, and shareability.
-- **Open experiments**: web tools, automation workflows, and small practical systems for information collection and organization.
+- **BrainDance / 流光记**：围绕重建、理解、检索与交互式 AI 体验持续推进的长期方向。
+- **ACGTI**：偏 ACG 风格的人格测试项目，重点在角色感、互动感和传播性。
+- **开放式实验项目**：包括 Web 工具、自动化流程、抓取与信息组织类的小系统。
 
-## Featured Projects
+## 精选项目
 
 <!-- featured-projects:start -->
 <table>
 <tr>
 <td width="50%" valign="top">
   <strong><a href="https://github.com/tianxingleo/ACGTI">ACGTI</a></strong><br />
-  An ACG-themed personality test project with strong character-driven interaction and shareable product presentation.<br /><br />
+  一个偏角色化互动与产品表达的 ACG 主题人格测试项目。<br /><br />
   <img src="https://img.shields.io/github/stars/tianxingleo/ACGTI?style=flat-square&color=2563eb" alt="ACGTI stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/ACGTI?style=flat-square&color=0f172a" alt="ACGTI last commit" /> <img src="https://img.shields.io/badge/language-TypeScript-1d4ed8?style=flat-square" alt="ACGTI language" /><br /><br />
-  <a href="https://github.com/tianxingleo/ACGTI">Repository</a> · <a href="https://acgti.tianxingleo.top">Live Demo</a>
+  <a href="https://github.com/tianxingleo/ACGTI">仓库</a> · <a href="https://acgti.tianxingleo.top">在线访问</a>
 </td>
 <td width="50%" valign="top">
   <strong><a href="https://github.com/tianxingleo/BrainDance">BrainDance</a></strong><br />
-  An AI project line around reconstruction, semantic understanding, retrieval, and interactive memory experiences.<br /><br />
+  围绕重建、语义理解、检索与交互式记忆体验展开的 AI 项目方向。<br /><br />
   <img src="https://img.shields.io/github/stars/tianxingleo/BrainDance?style=flat-square&color=2563eb" alt="BrainDance stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/BrainDance?style=flat-square&color=0f172a" alt="BrainDance last commit" /> <img src="https://img.shields.io/badge/language-Python-1d4ed8?style=flat-square" alt="BrainDance language" /><br /><br />
-  <a href="https://github.com/tianxingleo/BrainDance">Repository</a>
+  <a href="https://github.com/tianxingleo/BrainDance">仓库</a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-  <strong><a href="https://github.com/tianxingleo/school-runing-dut">DUT Campus Run Script</a></strong><br />
-  A campus running automation script built for the DUT Development Zone campus, focused on practical workflow automation.<br /><br />
+  <strong><a href="https://github.com/tianxingleo/school-runing-dut">DUT 校园跑脚本</a></strong><br />
+  面向大连理工大学开发区校区校园跑场景的自动化脚本项目，强调实用性和流程自动化。<br /><br />
   <img src="https://img.shields.io/github/stars/tianxingleo/school-runing-dut?style=flat-square&color=2563eb" alt="school-runing-dut stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/school-runing-dut?style=flat-square&color=0f172a" alt="school-runing-dut last commit" /> <img src="https://img.shields.io/badge/language-Python-1d4ed8?style=flat-square" alt="school-runing-dut language" /><br /><br />
-  <a href="https://github.com/tianxingleo/school-runing-dut">Repository</a>
+  <a href="https://github.com/tianxingleo/school-runing-dut">仓库</a>
 </td>
 <td width="50%" valign="top">
   <strong><a href="https://github.com/tianxingleo/Supercore-Site-Pro">Supercore Site Pro</a></strong><br />
-  A Swiss-style enterprise site with 3D presentation and AI-assisted product communication.<br /><br />
+  一个带有 3D 展示与 AI 辅助表达的瑞士风企业官网项目。<br /><br />
   <img src="https://img.shields.io/github/stars/tianxingleo/Supercore-Site-Pro?style=flat-square&color=2563eb" alt="Supercore-Site-Pro stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/Supercore-Site-Pro?style=flat-square&color=0f172a" alt="Supercore-Site-Pro last commit" /> <img src="https://img.shields.io/badge/language-Vue-1d4ed8?style=flat-square" alt="Supercore-Site-Pro language" /><br /><br />
-  <a href="https://github.com/tianxingleo/Supercore-Site-Pro">Repository</a> · <a href="https://supercore.hk">Website</a>
+  <a href="https://github.com/tianxingleo/Supercore-Site-Pro">仓库</a> · <a href="https://supercore.hk">网站</a>
 </td>
 </tr>
 </table>
 <!-- featured-projects:end -->
 
-## Recent Updates
+## 最近更新
 
 <!-- recent-activity:start -->
-- [Backend_of_Blog__Powered_by_hexo](https://github.com/tianxingleo/Backend_of_Blog__Powered_by_hexo) · updated 2026-04-14
-- [tianxingleo.github.io](https://github.com/tianxingleo/tianxingleo.github.io) · updated 2026-04-14
-- [Homework_For_DUT](https://github.com/tianxingleo/Homework_For_DUT) · updated 2026-04-07
-- [DA3-LiveSplat](https://github.com/tianxingleo/DA3-LiveSplat) · updated 2026-02-20
-- [md2pdf-converter](https://github.com/tianxingleo/md2pdf-converter) · updated 2026-02-15  
+- [Backend_of_Blog__Powered_by_hexo](https://github.com/tianxingleo/Backend_of_Blog__Powered_by_hexo) · 更新于 2026-04-14  
+  博客后端
+- [tianxingleo.github.io](https://github.com/tianxingleo/tianxingleo.github.io) · 更新于 2026-04-14  
+  Blog，powered byhexo
+- [Homework_For_DUT](https://github.com/tianxingleo/Homework_For_DUT) · 更新于 2026-04-07  
+  这是一个仓库，用于储存大连理工大学国际信息与软件学院计算机作业与线性代数作业
+- [DA3-LiveSplat](https://github.com/tianxingleo/DA3-LiveSplat) · 更新于 2026-02-20  
+  实时版 Depth Anything 3 - 基于 DA3stream 的实时计算实现
+- [md2pdf-converter](https://github.com/tianxingleo/md2pdf-converter) · 更新于 2026-02-15  
   Offline Markdown to PDF converter with full Unicode support, colorful emojis, and Chinese fonts. Uses Pandoc + WeasyPrint with local emoji cache.
 <!-- recent-activity:end -->
 
@@ -102,11 +106,11 @@
   </picture>
 </p>
 
-## Tech Focus
+## 技术关注
 
-- **Languages**: Python, C++, TypeScript, JavaScript, HTML/CSS
-- **Tools and Frameworks**: Vue, Flutter, Git, GitHub Actions, VS Code, PyCharm
-- **Current Interests**: AI systems, 3D vision, multimodal retrieval, world models, and product-oriented open source
+- **语言**：Python、C++、TypeScript、JavaScript、HTML/CSS
+- **工具与框架**：Vue、Flutter、Git、GitHub Actions、VS Code、PyCharm
+- **持续关注**：AI 系统、3D 视觉、多模态检索、世界模型、产品型开源项目
 
 <p>
   <img src="https://skillicons.dev/icons?i=python,cpp,ts,js,vue,flutter,git,github,vscode&theme=dark" alt="Skill icons" />
