@@ -8,6 +8,7 @@ from pathlib import Path
 
 OWNER = "tianxingleo"
 ROOT = Path(__file__).resolve().parents[1]
+SITE_URL = "https://tianxingleo.top"
 
 FEATURED_REPOS = [
     {
@@ -45,7 +46,6 @@ FEATURED_REPOS = [
 ]
 
 RECENT_LIMIT = 5
-EXCLUDED_RECENT = {"tianxingleo", "angular", "BrainDance"}
 
 
 def gh_get(url: str, token: str | None):
@@ -120,26 +120,45 @@ def generate_featured_section(repos: list[dict], lang: str) -> str:
 
 
 def generate_recent_section(repos: list[dict], lang: str) -> str:
+    token = os.getenv("GITHUB_TOKEN")
     items = []
-    visible = [
-        repo
-        for repo in repos
-        if not repo.get("fork")
-        and repo["name"] not in EXCLUDED_RECENT
-        and repo["name"] not in {cfg["name"] for cfg in FEATURED_REPOS}
-    ]
-    visible.sort(key=lambda repo: repo["pushed_at"], reverse=True)
+    search_headers = {
+        "Accept": "application/vnd.github.cloak-preview+json",
+        "User-Agent": "Codex-Profile-Generator",
+        **({"Authorization": f"Bearer {token}"} if token else {}),
+    }
+    req = urllib.request.Request(
+        f"https://api.github.com/search/commits?q=author:{OWNER}+user:{OWNER}&sort=author-date&order=desc&per_page=20",
+        headers=search_headers,
+    )
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        search_result = json.load(resp)
 
-    for repo in visible[:RECENT_LIMIT]:
-        pushed = dt.datetime.fromisoformat(repo["pushed_at"].replace("Z", "+00:00")).strftime("%Y-%m-%d")
-        desc = repo.get("description") or ("No description yet." if lang == "en" else "暂时还没有补充简介。")
+    seen_repos = set()
+    recent_commits = []
+    for item in search_result.get("items", []):
+        repo_name = item["repository"]["name"]
+        if repo_name in seen_repos:
+            continue
+        seen_repos.add(repo_name)
+        recent_commits.append(
+            {
+                "repo_name": repo_name,
+                "repo_url": item["repository"]["html_url"],
+                "date": item["commit"]["author"]["date"],
+                "message": item["commit"]["message"].strip().splitlines()[0],
+            }
+        )
+        if len(recent_commits) >= RECENT_LIMIT:
+            break
+
+    for entry in recent_commits:
+        created = dt.datetime.fromisoformat(entry["date"].replace("Z", "+00:00")).strftime("%Y-%m-%d")
         if lang == "en":
-            if desc.isascii():
-                items.append(f'- [{repo["name"]}]({repo["html_url"]}) · updated {pushed}  \n  {desc}')
-            else:
-                items.append(f'- [{repo["name"]}]({repo["html_url"]}) · updated {pushed}')
+            header = f'- [{entry["repo_name"]}]({entry["repo_url"]}) · latest commit on {created}'
         else:
-            items.append(f'- [{repo["name"]}]({repo["html_url"]}) · 更新于 {pushed}  \n  {desc}')
+            header = f'- [{entry["repo_name"]}]({entry["repo_url"]}) · 最近一次提交于 {created}'
+        items.append("\n".join([header, f'  - `{entry["message"]}`']))
 
     return "\n".join(items)
 
@@ -152,6 +171,15 @@ def replace_between(text: str, marker: str, content: str) -> str:
     return f"{before}{start}\n{content}\n{end}{after}"
 
 
+def read_existing_section(path: Path, marker: str) -> str:
+    text = path.read_text(encoding="utf-8")
+    start = f"<!-- {marker}:start -->"
+    end = f"<!-- {marker}:end -->"
+    _, rest = text.split(start, 1)
+    existing, _ = rest.split(end, 1)
+    return existing.strip()
+
+
 def update_file(path: Path, featured: str, recent: str):
     text = path.read_text(encoding="utf-8")
     text = replace_between(text, "featured-projects", featured)
@@ -162,9 +190,21 @@ def update_file(path: Path, featured: str, recent: str):
 def main():
     token = os.getenv("GITHUB_TOKEN")
     repos = gh_get(f"https://api.github.com/users/{OWNER}/repos?per_page=100&sort=updated", token)
+    readme_en = ROOT / "README.md"
+    readme_zh = ROOT / "README.zh-CN.md"
 
-    update_file(ROOT / "README.md", generate_featured_section(repos, "en"), generate_recent_section(repos, "en"))
-    update_file(ROOT / "README.zh-CN.md", generate_featured_section(repos, "zh"), generate_recent_section(repos, "zh"))
+    featured_en = generate_featured_section(repos, "en")
+    featured_zh = generate_featured_section(repos, "zh")
+
+    try:
+        recent_en = generate_recent_section(repos, "en")
+        recent_zh = generate_recent_section(repos, "zh")
+    except Exception:
+        recent_en = read_existing_section(readme_en, "recent-activity")
+        recent_zh = read_existing_section(readme_zh, "recent-activity")
+
+    update_file(readme_en, featured_en, recent_en)
+    update_file(readme_zh, featured_zh, recent_zh)
 
 
 if __name__ == "__main__":

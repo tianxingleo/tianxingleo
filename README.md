@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  Software student at Dalian University of Technology, building projects across AI systems, 3D vision, world models, and product-focused web experiences.
+  Software student at the School of International Information and Software, Dalian University of Technology, building projects across AI systems, 3D vision, world models, and product-focused web experiences.
 </p>
 
 <p align="center">
@@ -11,24 +11,26 @@
 </p>
 
 <p align="center">
-  <a href="https://tianxingleo.com"><img src="https://img.shields.io/badge/Website-0f172a?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website badge" /></a>
+  <a href="https://tianxingleo.top"><img src="https://img.shields.io/badge/Website-0f172a?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website badge" /></a>
   <a href="mailto:tianxingleo@gmail.com"><img src="https://img.shields.io/badge/Email-1d4ed8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email badge" /></a>
   <a href="https://github.com/tianxingleo?tab=repositories"><img src="https://img.shields.io/badge/Projects-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="Projects badge" /></a>
 </p>
 
 ## About Me
 
-- Software student at Dalian University of Technology.
+- Software student at the School of International Information and Software, Dalian University of Technology.
 - Interested in AI systems, 3D reconstruction, retrieval, world models, and creative coding.
 - I like turning research ideas into projects that are tangible, interactive, and easy to understand.
 
 ## What I'm Building
 
-- **BrainDance / Flowing Light Memoir**: a long-term direction around reconstruction, understanding, retrieval, and interactive AI experiences.
+- **BrainDance / 流光·记**: a long-term direction around reconstruction, understanding, retrieval, and interactive AI experiences.
 - **ACGTI**: an ACG-themed personality test project with stronger character, interaction, and shareability.
 - **Open experiments**: web tools, automation workflows, and small practical systems for information collection and organization.
 
 ## Featured Projects
+
+Curated manually for narrative focus. Repository metadata below updates automatically.
 
 <!-- featured-projects:start -->
 <table>
@@ -66,12 +68,14 @@
 ## Recent Updates
 
 <!-- recent-activity:start -->
-- [Backend_of_Blog__Powered_by_hexo](https://github.com/tianxingleo/Backend_of_Blog__Powered_by_hexo) · updated 2026-04-14
-- [tianxingleo.github.io](https://github.com/tianxingleo/tianxingleo.github.io) · updated 2026-04-14
-- [Homework_For_DUT](https://github.com/tianxingleo/Homework_For_DUT) · updated 2026-04-07
-- [DA3-LiveSplat](https://github.com/tianxingleo/DA3-LiveSplat) · updated 2026-02-20
-- [md2pdf-converter](https://github.com/tianxingleo/md2pdf-converter) · updated 2026-02-15  
-  Offline Markdown to PDF converter with full Unicode support, colorful emojis, and Chinese fonts. Uses Pandoc + WeasyPrint with local emoji cache.
+- [tianxingleo](https://github.com/tianxingleo/tianxingleo) · latest commit on 2026-04-14
+  - `解决 README.md 合并冲突（保留新版内容），添加 .gitignore 忽略 repomix-output.xml`
+- [ACGTI](https://github.com/tianxingleo/ACGTI) · latest commit on 2026-04-14
+  - `Merge branch 'main' of github.com:tianxingleo/ACGTI`
+- [Backend_of_Blog__Powered_by_hexo](https://github.com/tianxingleo/Backend_of_Blog__Powered_by_hexo) · latest commit on 2026-04-14
+  - `Daily update - $(Get-Date -Format 'yyyy-MM-dd')`
+- [tianxingleo.github.io](https://github.com/tianxingleo/tianxingleo.github.io) · latest commit on 2026-04-14
+  - `Site updated: 2026-04-14 18:12:05`
 <!-- recent-activity:end -->
 
 ## GitHub Snapshot
@@ -80,25 +84,20 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tianxingleo&theme=github_dark" />
     <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tianxingleo&theme=default" />
-    <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tianxingleo&theme=default" alt="GitHub profile summary" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tianxingleo&theme=github_dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tianxingleo&theme=default" />
-    <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tianxingleo&theme=default" alt="GitHub languages summary" />
+    <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tianxingleo&theme=default" alt="GitHub profile summary" />
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tianxingleo&theme=github_dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tianxingleo&theme=default" />
-    <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tianxingleo&theme=default" alt="Most commit language" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tianxingleo&theme=github_dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tianxingleo&theme=default" />
+    <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tianxingleo&theme=default" alt="GitHub stats summary" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=tianxingleo&theme=github-dark-blue&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=tianxingleo&theme=default&hide_border=true" />
-    <img width="49%" src="https://streak-stats.demolab.com?user=tianxingleo&theme=default&hide_border=true" alt="GitHub streak" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tianxingleo&theme=github_dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tianxingleo&theme=default" />
+    <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tianxingleo&theme=default" alt="Top languages by repo" />
   </picture>
 </p>
 

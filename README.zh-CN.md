@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  大连理工大学软件学院学生，关注 AI 系统、3D 重建、世界模型与有产品感的创意 Web 项目。
+  大连理工大学国际信息与软件学院学生，关注 AI 系统、3D 重建、世界模型与有产品感的创意 Web 项目。
 </p>
 
 <p align="center">
@@ -11,24 +11,26 @@
 </p>
 
 <p align="center">
-  <a href="https://tianxingleo.com"><img src="https://img.shields.io/badge/个人网站-0f172a?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website badge" /></a>
+  <a href="https://tianxingleo.top"><img src="https://img.shields.io/badge/个人网站-0f172a?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website badge" /></a>
   <a href="mailto:tianxingleo@gmail.com"><img src="https://img.shields.io/badge/邮箱-1d4ed8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email badge" /></a>
   <a href="https://github.com/tianxingleo?tab=repositories"><img src="https://img.shields.io/badge/项目列表-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="Projects badge" /></a>
 </p>
 
 ## 关于我
 
-- 大连理工大学软件学院学生。
+- 大连理工大学国际信息与软件学院学生。
 - 主要兴趣方向是 AI systems、3D reconstruction、retrieval、world models 和 creative coding。
 - 我更喜欢把研究想法做成真正能展示、能交互、能讲清楚价值的项目。
 
 ## 近期在做
 
-- **BrainDance / 流光记**：围绕重建、理解、检索与交互式 AI 体验持续推进的长期方向。
+- **BrainDance / 流光·记**：围绕重建、理解、检索与交互式 AI 体验持续推进的长期方向。
 - **ACGTI**：偏 ACG 风格的人格测试项目，重点在角色感、互动感和传播性。
 - **开放式实验项目**：包括 Web 工具、自动化流程、抓取与信息组织类的小系统。
 
 ## 精选项目
+
+这里是手动精选的代表项目，下面的仓库数据会自动更新。
 
 <!-- featured-projects:start -->
 <table>
@@ -66,16 +68,14 @@
 ## 最近更新
 
 <!-- recent-activity:start -->
-- [Backend_of_Blog__Powered_by_hexo](https://github.com/tianxingleo/Backend_of_Blog__Powered_by_hexo) · 更新于 2026-04-14  
-  博客后端
-- [tianxingleo.github.io](https://github.com/tianxingleo/tianxingleo.github.io) · 更新于 2026-04-14  
-  Blog，powered byhexo
-- [Homework_For_DUT](https://github.com/tianxingleo/Homework_For_DUT) · 更新于 2026-04-07  
-  这是一个仓库，用于储存大连理工大学国际信息与软件学院计算机作业与线性代数作业
-- [DA3-LiveSplat](https://github.com/tianxingleo/DA3-LiveSplat) · 更新于 2026-02-20  
-  实时版 Depth Anything 3 - 基于 DA3stream 的实时计算实现
-- [md2pdf-converter](https://github.com/tianxingleo/md2pdf-converter) · 更新于 2026-02-15  
-  Offline Markdown to PDF converter with full Unicode support, colorful emojis, and Chinese fonts. Uses Pandoc + WeasyPrint with local emoji cache.
+- [tianxingleo](https://github.com/tianxingleo/tianxingleo) · 最近一次提交于 2026-04-14
+  - `解决 README.md 合并冲突（保留新版内容），添加 .gitignore 忽略 repomix-output.xml`
+- [ACGTI](https://github.com/tianxingleo/ACGTI) · 最近一次提交于 2026-04-14
+  - `Merge branch 'main' of github.com:tianxingleo/ACGTI`
+- [Backend_of_Blog__Powered_by_hexo](https://github.com/tianxingleo/Backend_of_Blog__Powered_by_hexo) · 最近一次提交于 2026-04-14
+  - `Daily update - $(Get-Date -Format 'yyyy-MM-dd')`
+- [tianxingleo.github.io](https://github.com/tianxingleo/tianxingleo.github.io) · 最近一次提交于 2026-04-14
+  - `Site updated: 2026-04-14 18:12:05`
 <!-- recent-activity:end -->
 
 ## GitHub Snapshot
@@ -84,25 +84,20 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tianxingleo&theme=github_dark" />
     <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tianxingleo&theme=default" />
-    <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tianxingleo&theme=default" alt="GitHub profile summary" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tianxingleo&theme=github_dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tianxingleo&theme=default" />
-    <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tianxingleo&theme=default" alt="GitHub languages summary" />
+    <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tianxingleo&theme=default" alt="GitHub profile summary" />
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tianxingleo&theme=github_dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tianxingleo&theme=default" />
-    <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tianxingleo&theme=default" alt="Most commit language" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tianxingleo&theme=github_dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tianxingleo&theme=default" />
+    <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tianxingleo&theme=default" alt="GitHub stats summary" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=tianxingleo&theme=github-dark-blue&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=tianxingleo&theme=default&hide_border=true" />
-    <img width="49%" src="https://streak-stats.demolab.com?user=tianxingleo&theme=default&hide_border=true" alt="GitHub streak" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tianxingleo&theme=github_dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tianxingleo&theme=default" />
+    <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tianxingleo&theme=default" alt="Top languages by repo" />
   </picture>
 </p>
 
