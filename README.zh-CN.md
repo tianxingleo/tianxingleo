@@ -68,14 +68,8 @@
 ## 最近更新
 
 <!-- recent-activity:start -->
-- [tianxingleo](https://github.com/tianxingleo/tianxingleo) · 最近一次提交于 2026-04-14
-  - `更新 README 和 README.zh-CN 文件，修正学院名称；更新个人网站链接；修改生成个人 README 的脚本以支持最近提交的显示`
-- [ACGTI](https://github.com/tianxingleo/ACGTI) · 最近一次提交于 2026-04-14
-  - `Merge branch 'main' of github.com:tianxingleo/ACGTI`
-- [Backend_of_Blog__Powered_by_hexo](https://github.com/tianxingleo/Backend_of_Blog__Powered_by_hexo) · 最近一次提交于 2026-04-14
-  - `Daily update - $(Get-Date -Format 'yyyy-MM-dd')`
-- [tianxingleo.github.io](https://github.com/tianxingleo/tianxingleo.github.io) · 最近一次提交于 2026-04-14
-  - `Site updated: 2026-04-14 18:12:05`
+- [ACGTI](https://github.com/tianxingleo/ACGTI) · 最近一次提交于 2026-04-15
+  - `Merge branch 'dev'`
 <!-- recent-activity:end -->
 
 ## GitHub Snapshot
