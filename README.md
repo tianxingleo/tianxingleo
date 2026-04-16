@@ -68,8 +68,8 @@ Curated manually for narrative focus. Repository metadata below updates automati
 ## Recent Updates
 
 <!-- recent-activity:start -->
-- [ACGTI](https://github.com/tianxingleo/ACGTI) · latest commit on 2026-04-15
-  - `Merge branch 'dev'`
+- [ACGTI](https://github.com/tianxingleo/ACGTI) · latest commit on 2026-04-16
+  - `Merge pull request #32 from tianxingleo/dev`
 <!-- recent-activity:end -->
 
 ## GitHub Snapshot
