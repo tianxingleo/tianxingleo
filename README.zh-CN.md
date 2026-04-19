@@ -68,8 +68,8 @@
 ## 最近更新
 
 <!-- recent-activity:start -->
-- [ACGTI](https://github.com/tianxingleo/ACGTI) · 最近一次提交于 2026-04-18
-  - `Merge pull request #45 from tianxingleo/dev`
+- [ACGTI](https://github.com/tianxingleo/ACGTI) · 最近一次提交于 2026-04-19
+  - `Merge pull request #60 from tianxingleo/dev`
 <!-- recent-activity:end -->
 
 ## GitHub Snapshot
