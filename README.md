@@ -68,12 +68,8 @@ Curated manually for narrative focus. Repository metadata below updates automati
 ## Recent Updates
 
 <!-- recent-activity:start -->
-- [Backend_of_Blog__Powered_by_hexo](https://github.com/tianxingleo/Backend_of_Blog__Powered_by_hexo) · latest commit on 2026-04-20
-  - `Daily update - $(Get-Date -Format 'yyyy-MM-dd')`
-- [tianxingleo.github.io](https://github.com/tianxingleo/tianxingleo.github.io) · latest commit on 2026-04-20
-  - `Site updated: 2026-04-20 12:04:43`
-- [ACGTI](https://github.com/tianxingleo/ACGTI) · latest commit on 2026-04-20
-  - `Merge pull request #65 from tianxingleo/dev`
+- [ACGTI](https://github.com/tianxingleo/ACGTI) · latest commit on 2026-04-21
+  - `Merge pull request #75 from tianxingleo/dev`
 <!-- recent-activity:end -->
 
 ## GitHub Snapshot
