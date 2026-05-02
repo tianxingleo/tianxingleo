@@ -68,12 +68,12 @@
 ## 最近更新
 
 <!-- recent-activity:start -->
+- [Backend_of_Blog__Powered_by_hexo](https://github.com/tianxingleo/Backend_of_Blog__Powered_by_hexo) · 最近一次提交于 2026-05-02
+  - `Daily update - $(Get-Date -Format 'yyyy-MM-dd')`
+- [tianxingleo.github.io](https://github.com/tianxingleo/tianxingleo.github.io) · 最近一次提交于 2026-05-02
+  - `Site updated: 2026-05-02 12:11:02`
 - [ACGTI](https://github.com/tianxingleo/ACGTI) · 最近一次提交于 2026-04-29
   - `Merge pull request #83 from tianxingleo/dev`
-- [Backend_of_Blog__Powered_by_hexo](https://github.com/tianxingleo/Backend_of_Blog__Powered_by_hexo) · 最近一次提交于 2026-04-22
-  - `Daily update - $(Get-Date -Format 'yyyy-MM-dd')`
-- [tianxingleo.github.io](https://github.com/tianxingleo/tianxingleo.github.io) · 最近一次提交于 2026-04-22
-  - `Site updated: 2026-04-22 18:22:03`
 <!-- recent-activity:end -->
 
 ## GitHub Snapshot
