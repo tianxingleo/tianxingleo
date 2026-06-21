@@ -68,10 +68,8 @@ Curated manually for narrative focus. Repository metadata below updates automati
 ## Recent Updates
 
 <!-- recent-activity:start -->
-- [Homework_For_DUT](https://github.com/tianxingleo/Homework_For_DUT) · latest commit on 2026-06-08
-  - `新增微积分上机作业文件，修复 .gitignore 并忽略 repomix 输出`
-- [BrainDance](https://github.com/tianxingleo/BrainDance) · latest commit on 2026-05-28
-  - `Merge pull request #68 from tianxingleo/dev`
+- [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · latest commit on 2026-06-21
+  - `feat: add calculus notes page with KaTeX math rendering`
 <!-- recent-activity:end -->
 
 ## GitHub Snapshot
