@@ -68,8 +68,8 @@
 ## 最近更新
 
 <!-- recent-activity:start -->
-- [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · 最近一次提交于 2026-06-21
-  - `feat: add calculus notes page with KaTeX math rendering`
+- [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · 最近一次提交于 2026-06-22
+  - `feat: 合并日语语法与单词为综合日语2，新增课程树导航与解析器域内去重`
 <!-- recent-activity:end -->
 
 ## GitHub Snapshot
