@@ -68,8 +68,8 @@ Curated manually for narrative focus. Repository metadata below updates automati
 ## Recent Updates
 
 <!-- recent-activity:start -->
-- [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · latest commit on 2026-06-22
-  - `feat: 合并日语语法与单词为综合日语2，新增课程树导航与解析器域内去重`
+- [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · latest commit on 2026-06-23
+  - `chore: 添加临时分析文件到 .gitignore`
 <!-- recent-activity:end -->
 
 ## GitHub Snapshot
