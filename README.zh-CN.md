@@ -68,8 +68,10 @@
 ## 最近更新
 
 <!-- recent-activity:start -->
-- [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · 最近一次提交于 2026-06-23
-  - `chore: 添加临时分析文件到 .gitignore`
+- [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · 最近一次提交于 2026-06-24
+  - `feat: 近代史章节版新增判断题筛选功能`
+- [BrainDance](https://github.com/tianxingleo/BrainDance) · 最近一次提交于 2026-06-24
+  - `Merge pull request #69 from tianxingleo/dev`
 <!-- recent-activity:end -->
 
 ## GitHub Snapshot
