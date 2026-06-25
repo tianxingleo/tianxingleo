@@ -68,8 +68,8 @@ Curated manually for narrative focus. Repository metadata below updates automati
 ## Recent Updates
 
 <!-- recent-activity:start -->
-- [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · latest commit on 2026-06-24
-  - `feat: 近代史章节版新增判断题筛选功能`
+- [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · latest commit on 2026-06-25
+  - `chore: 修复 Prettier 格式检查问题`
 - [BrainDance](https://github.com/tianxingleo/BrainDance) · latest commit on 2026-06-24
   - `Merge pull request #69 from tianxingleo/dev`
 <!-- recent-activity:end -->
