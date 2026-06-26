@@ -69,9 +69,7 @@ Curated manually for narrative focus. Repository metadata below updates automati
 
 <!-- recent-activity:start -->
 - [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · latest commit on 2026-06-25
-  - `chore: 修复 Prettier 格式检查问题`
-- [BrainDance](https://github.com/tianxingleo/BrainDance) · latest commit on 2026-06-24
-  - `Merge pull request #69 from tianxingleo/dev`
+  - `content: 为新增军事理论题目添加解析和tag，支持填空题型`
 <!-- recent-activity:end -->
 
 ## GitHub Snapshot
