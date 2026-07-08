@@ -68,6 +68,8 @@ Curated manually for narrative focus. Repository metadata below updates automati
 ## Recent Updates
 
 <!-- recent-activity:start -->
+- [BrainDance](https://github.com/tianxingleo/BrainDance) · latest commit on 2026-07-08
+  - `Merge pull request #70 from tianxingleo/revert-69-dev`
 - [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · latest commit on 2026-06-25
   - `content: 为新增军事理论题目添加解析和tag，支持填空题型`
 <!-- recent-activity:end -->
