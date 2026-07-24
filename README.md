@@ -68,10 +68,12 @@ Curated manually for narrative focus. Repository metadata below updates automati
 ## Recent Updates
 
 <!-- recent-activity:start -->
-- [BrainDance](https://github.com/tianxingleo/BrainDance) · latest commit on 2026-07-08
-  - `Merge pull request #70 from tianxingleo/revert-69-dev`
-- [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · latest commit on 2026-06-25
-  - `content: 为新增军事理论题目添加解析和tag，支持填空题型`
+- [ACGTI](https://github.com/tianxingleo/ACGTI) · latest commit on 2026-07-24
+  - `feat: 合并 dev 更新——新增角色东风谷早苗并清理仓库 (#86)`
+- [balatro-easyx](https://github.com/tianxingleo/balatro-easyx) · latest commit on 2026-07-24
+  - `docs: README 加入两张游戏展示截图`
+- [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · latest commit on 2026-07-24
+  - `refactor: 路由改用 hash history，优化构建分包并移除遗留组件`
 <!-- recent-activity:end -->
 
 ## GitHub Snapshot
