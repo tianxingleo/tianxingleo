@@ -68,12 +68,14 @@ Curated manually for narrative focus. Repository metadata below updates automati
 ## Recent Updates
 
 <!-- recent-activity:start -->
+- [Smart-Scraper-RSS](https://github.com/tianxingleo/Smart-Scraper-RSS) · latest commit on 2026-07-27
+  - `feat: 整理项目结构并完善工程化配置`
+- [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · latest commit on 2026-07-26
+  - `chore: remove local-only artifacts from repository`
 - [ACGTI](https://github.com/tianxingleo/ACGTI) · latest commit on 2026-07-24
   - `feat: 合并 dev 更新——新增角色东风谷早苗并清理仓库 (#86)`
 - [balatro-easyx](https://github.com/tianxingleo/balatro-easyx) · latest commit on 2026-07-24
   - `docs: README 加入两张游戏展示截图`
-- [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · latest commit on 2026-07-24
-  - `refactor: 路由改用 hash history，优化构建分包并移除遗留组件`
 <!-- recent-activity:end -->
 
 ## GitHub Snapshot
