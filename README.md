@@ -68,6 +68,8 @@ Curated manually for narrative focus. Repository metadata below updates automati
 ## Recent Updates
 
 <!-- recent-activity:start -->
+- [tianxingleo](https://github.com/tianxingleo/tianxingleo) · latest commit on 2026-08-07
+  - `docs: add AI Coding Activity (Tokscale stats) section`
 - [Smart-Scraper-RSS](https://github.com/tianxingleo/Smart-Scraper-RSS) · latest commit on 2026-07-27
   - `feat: 整理项目结构并完善工程化配置`
 - [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · latest commit on 2026-07-26
