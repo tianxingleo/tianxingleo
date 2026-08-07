@@ -78,6 +78,14 @@ Curated manually for narrative focus. Repository metadata below updates automati
   - `docs: README 加入两张游戏展示截图`
 <!-- recent-activity:end -->
 
+<h2 align="center">AI Coding Activity</h2>
+
+<p align="center">
+  <a href="https://tokscale.ai/u/tianxingleo">
+    <img src="https://tokscale.ai/api/embed/tianxingleo/svg?view=3d&tokens=compact&cost=compact" alt="Tokscale Stats" />
+  </a>
+</p>
+
 ## GitHub Snapshot
 
 <p align="center">
