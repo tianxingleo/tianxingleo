@@ -80,14 +80,6 @@
   - `docs: README 加入两张游戏展示截图`
 <!-- recent-activity:end -->
 
-<h2 align="center">AI Coding Activity</h2>
-
-<p align="center">
-  <a href="https://tokscale.ai/u/tianxingleo">
-    <img src="https://tokscale.ai/api/embed/tianxingleo/svg?view=3d&tokens=compact&cost=compact" alt="Tokscale Stats" />
-  </a>
-</p>
-
 ## GitHub Snapshot
 
 <p align="center">
@@ -121,10 +113,10 @@
   <img src="https://skillicons.dev/icons?i=python,cpp,ts,js,vue,flutter,git,github,vscode&theme=dark" alt="Skill icons" />
 </p>
 
-## Contribution Graph
+<h2 align="center">AI Coding Activity</h2>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tianxingleo/tianxingleo/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tianxingleo/tianxingleo/output/snake.svg" />
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/tianxingleo/tianxingleo/output/snake.svg" />
-</picture>
+<p align="center">
+  <a href="https://tokscale.ai/u/tianxingleo">
+    <img src="https://tokscale.ai/api/embed/tianxingleo/svg?view=3d&tokens=compact&cost=compact" alt="Tokscale Stats" />
+  </a>
+</p>
