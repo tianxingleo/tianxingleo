@@ -38,13 +38,13 @@
 <td width="50%" valign="top">
   <strong><a href="https://github.com/tianxingleo/ACGTI">ACGTI</a></strong><br />
   一个偏角色化互动与产品表达的 ACG 主题人格测试项目。<br /><br />
-  <img src="https://img.shields.io/github/stars/tianxingleo/ACGTI?style=flat-square&color=2563eb" alt="ACGTI stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/ACGTI?style=flat-square&color=0f172a" alt="ACGTI last commit" /> <img src="https://img.shields.io/badge/language-TypeScript-1d4ed8?style=flat-square" alt="ACGTI language" /><br /><br />
+  <img src="https://img.shields.io/github/stars/tianxingleo/ACGTI?style=flat-square&color=2563eb" alt="ACGTI stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/ACGTI?style=flat-square&color=0f172a" alt="ACGTI last commit" /> <img src="https://img.shields.io/badge/language-TypeScript-1d4ed8&style=flat-square" alt="ACGTI language" /><br /><br />
   <a href="https://github.com/tianxingleo/ACGTI">仓库</a> · <a href="https://acgti.tianxingleo.top">在线访问</a>
 </td>
 <td width="50%" valign="top">
   <strong><a href="https://github.com/tianxingleo/BrainDance">BrainDance</a></strong><br />
   围绕重建、语义理解、检索与交互式记忆体验展开的 AI 项目方向。<br /><br />
-  <img src="https://img.shields.io/github/stars/tianxingleo/BrainDance?style=flat-square&color=2563eb" alt="BrainDance stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/BrainDance?style=flat-square&color=0f172a" alt="BrainDance last commit" /> <img src="https://img.shields.io/badge/language-Python-1d4ed8?style=flat-square" alt="BrainDance language" /><br /><br />
+  <img src="https://img.shields.io/github/stars/tianxingleo/BrainDance?style=flat-square&color=2563eb" alt="BrainDance stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/BrainDance?style=flat-square&color=0f172a" alt="BrainDance last commit" /> <img src="https://img.shields.io/badge/language-Python-1d4ed8&style=flat-square" alt="BrainDance language" /><br /><br />
   <a href="https://github.com/tianxingleo/BrainDance">仓库</a>
 </td>
 </tr>
@@ -52,13 +52,13 @@
 <td width="50%" valign="top">
   <strong><a href="https://github.com/tianxingleo/school-runing-dut">DUT 校园跑脚本</a></strong><br />
   面向大连理工大学开发区校区校园跑场景的自动化脚本项目，强调实用性和流程自动化。<br /><br />
-  <img src="https://img.shields.io/github/stars/tianxingleo/school-runing-dut?style=flat-square&color=2563eb" alt="school-runing-dut stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/school-runing-dut?style=flat-square&color=0f172a" alt="school-runing-dut last commit" /> <img src="https://img.shields.io/badge/language-Python-1d4ed8?style=flat-square" alt="school-runing-dut language" /><br /><br />
+  <img src="https://img.shields.io/github/stars/tianxingleo/school-runing-dut?style=flat-square&color=2563eb" alt="school-runing-dut stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/school-runing-dut?style=flat-square&color=0f172a" alt="school-runing-dut last commit" /> <img src="https://img.shields.io/badge/language-Python-1d4ed8&style=flat-square" alt="school-runing-dut language" /><br /><br />
   <a href="https://github.com/tianxingleo/school-runing-dut">仓库</a>
 </td>
 <td width="50%" valign="top">
   <strong><a href="https://github.com/tianxingleo/Supercore-Site-Pro">Supercore Site Pro</a></strong><br />
   一个带有 3D 展示与 AI 辅助表达的瑞士风企业官网项目。<br /><br />
-  <img src="https://img.shields.io/github/stars/tianxingleo/Supercore-Site-Pro?style=flat-square&color=2563eb" alt="Supercore-Site-Pro stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/Supercore-Site-Pro?style=flat-square&color=0f172a" alt="Supercore-Site-Pro last commit" /> <img src="https://img.shields.io/badge/language-Vue-1d4ed8?style=flat-square" alt="Supercore-Site-Pro language" /><br /><br />
+  <img src="https://img.shields.io/github/stars/tianxingleo/Supercore-Site-Pro?style=flat-square&color=2563eb" alt="Supercore-Site-Pro stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/Supercore-Site-Pro?style=flat-square&color=0f172a" alt="Supercore-Site-Pro last commit" /> <img src="https://img.shields.io/badge/language-Vue-1d4ed8&style=flat-square" alt="Supercore-Site-Pro language" /><br /><br />
   <a href="https://github.com/tianxingleo/Supercore-Site-Pro">仓库</a> · <a href="https://supercore.hk">网站</a>
 </td>
 </tr>
@@ -77,6 +77,14 @@
 - [balatro-easyx](https://github.com/tianxingleo/balatro-easyx) · 最近一次提交于 2026-07-24
   - `docs: README 加入两张游戏展示截图`
 <!-- recent-activity:end -->
+
+<h2 align="center">AI Coding Activity</h2>
+
+<p align="center">
+  <a href="https://tokscale.ai/u/tianxingleo">
+    <img src="https://tokscale.ai/api/embed/tianxingleo/svg?view=3d&tokens=compact&cost=compact" alt="Tokscale Stats" />
+  </a>
+</p>
 
 ## GitHub Snapshot
 
