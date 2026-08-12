@@ -68,6 +68,8 @@
 ## 最近更新
 
 <!-- recent-activity:start -->
+- [BrainDance](https://github.com/tianxingleo/BrainDance) · 最近一次提交于 2026-08-12
+  - `Merge pull request #71 from tianxingleo/reapply-dev-to-main`
 - [tianxingleo](https://github.com/tianxingleo/tianxingleo) · 最近一次提交于 2026-08-07
   - `docs: 中文版用 3D Tokscale 视图替换贪吃蛇并移至页尾`
 - [Smart-Scraper-RSS](https://github.com/tianxingleo/Smart-Scraper-RSS) · 最近一次提交于 2026-07-27
@@ -76,8 +78,6 @@
   - `chore: remove local-only artifacts from repository`
 - [ACGTI](https://github.com/tianxingleo/ACGTI) · 最近一次提交于 2026-07-24
   - `feat: 合并 dev 更新——新增角色东风谷早苗并清理仓库 (#86)`
-- [balatro-easyx](https://github.com/tianxingleo/balatro-easyx) · 最近一次提交于 2026-07-24
-  - `docs: README 加入两张游戏展示截图`
 <!-- recent-activity:end -->
 
 ## GitHub Snapshot
