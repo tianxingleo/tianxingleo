@@ -68,16 +68,8 @@ Curated manually for narrative focus. Repository metadata below updates automati
 ## Recent Updates
 
 <!-- recent-activity:start -->
-- [BrainDance](https://github.com/tianxingleo/BrainDance) · latest commit on 2026-08-12
-  - `Merge pull request #71 from tianxingleo/reapply-dev-to-main`
-- [tianxingleo](https://github.com/tianxingleo/tianxingleo) · latest commit on 2026-08-07
-  - `docs: 中文版用 3D Tokscale 视图替换贪吃蛇并移至页尾`
-- [Smart-Scraper-RSS](https://github.com/tianxingleo/Smart-Scraper-RSS) · latest commit on 2026-07-27
-  - `feat: 整理项目结构并完善工程化配置`
-- [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · latest commit on 2026-07-26
-  - `chore: remove local-only artifacts from repository`
-- [ACGTI](https://github.com/tianxingleo/ACGTI) · latest commit on 2026-07-24
-  - `feat: 合并 dev 更新——新增角色东风谷早苗并清理仓库 (#86)`
+- [ACGTI](https://github.com/tianxingleo/ACGTI) · latest commit on 2026-08-24
+  - `fix(api): AI 解读接口防滥用加固——预热鉴权、每日熔断与限流 fail-closed`
 <!-- recent-activity:end -->
 
 ## GitHub Snapshot
