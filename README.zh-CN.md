@@ -68,8 +68,8 @@
 ## 最近更新
 
 <!-- recent-activity:start -->
-- [ACGTI](https://github.com/tianxingleo/ACGTI) · 最近一次提交于 2026-08-24
-  - `fix(api): AI 解读接口防滥用加固——预热鉴权、每日熔断与限流 fail-closed`
+- [ACGTI](https://github.com/tianxingleo/ACGTI) · 最近一次提交于 2026-08-26
+  - `refactor(frontend): 批量去除前端 AI 味，按 killaislop 清理视觉噪音`
 <!-- recent-activity:end -->
 
 ## GitHub Snapshot
