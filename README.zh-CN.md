@@ -68,8 +68,10 @@
 ## 最近更新
 
 <!-- recent-activity:start -->
-- [ACGTI](https://github.com/tianxingleo/ACGTI) · 最近一次提交于 2026-08-26
-  - `refactor(frontend): 批量去除前端 AI 味，按 killaislop 清理视觉噪音`
+- [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · 最近一次提交于 2026-08-28
+  - `chore: 补充 .gitignore 忽略审计文档与调试输出产物`
+- [ACGTI](https://github.com/tianxingleo/ACGTI) · 最近一次提交于 2026-08-28
+  - `docs(audit): 审计三件套转为仅本地留存，从版本库移除`
 <!-- recent-activity:end -->
 
 ## GitHub Snapshot
