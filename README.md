@@ -68,6 +68,8 @@ Curated manually for narrative focus. Repository metadata below updates automati
 ## Recent Updates
 
 <!-- recent-activity:start -->
+- [dsh-memory-plugin](https://github.com/tianxingleo/dsh-memory-plugin) · latest commit on 2026-09-04
+  - `docs: 更新 README，修正描述和格式，添加注意事项`
 - [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · latest commit on 2026-08-28
   - `chore: 补充 .gitignore 忽略审计文档与调试输出产物`
 - [ACGTI](https://github.com/tianxingleo/ACGTI) · latest commit on 2026-08-28
