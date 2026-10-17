@@ -39,7 +39,7 @@ I enjoy building things that people can actually use — from a small web idea s
   <strong><a href="https://github.com/tianxingleo/ACGTI">ACGTI</a></strong><br />
   A playful ACG personality quiz built with Vue 3 and TypeScript. Reached millions of views and 1k+ GitHub stars.<br /><br />
   <img src="https://img.shields.io/github/stars/tianxingleo/ACGTI?style=flat-square&color=2563eb" alt="ACGTI stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/ACGTI?style=flat-square&color=0f172a" alt="ACGTI last commit" /> <img src="https://img.shields.io/badge/language-TypeScript-1d4ed8?style=flat-square" alt="ACGTI language" /><br /><br />
-  <a href="https://github.com/tianxingleo/ACGTI">Repository</a> · <a href="https://acgti.tianxingleo.top">Live site</a>
+  <a href="https://github.com/tianxingleo/ACGTI">Repository</a> · <a href="https://acgti.tianxingleo.top">Live Demo</a>
 </td>
 <td width="50%" valign="top">
   <strong><a href="https://github.com/tianxingleo/BrainDance">BrainDance · 流光·记</a></strong><br />
@@ -73,12 +73,14 @@ I enjoy building things that people can actually use — from a small web idea s
 ## Recent Updates
 
 <!-- recent-activity:start -->
+- [tianxingleo](https://github.com/tianxingleo/tianxingleo) · latest commit on 2026-10-17
+  - `Merge pull request #1 from tianxingleo/docs/refresh-profile-oct-2026`
+- [tianxingleo.github.io](https://github.com/tianxingleo/tianxingleo.github.io) · latest commit on 2026-10-17
+  - `Site updated: 2026-10-17 01:12:37`
+- [Backend_of_Blog__Powered_by_hexo](https://github.com/tianxingleo/Backend_of_Blog__Powered_by_hexo) · latest commit on 2026-10-16
+  - `新增文章：TIC第二节例会Hexo博客指南`
 - [dsh-memory-plugin](https://github.com/tianxingleo/dsh-memory-plugin) · latest commit on 2026-09-04
   - `docs: 更新 README，修正描述和格式，添加注意事项`
-- [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · latest commit on 2026-08-28
-  - `chore: 补充 .gitignore 忽略审计文档与调试输出产物`
-- [ACGTI](https://github.com/tianxingleo/ACGTI) · latest commit on 2026-08-28
-  - `docs(audit): 审计三件套转为仅本地留存，从版本库移除`
 <!-- recent-activity:end -->
 
 ## What I use

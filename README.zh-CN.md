@@ -41,7 +41,7 @@
   <strong><a href="https://github.com/tianxingleo/ACGTI">ACGTI</a></strong><br />
   基于 Vue 3 / TypeScript 的 ACG 人格测试。从一个晚上的想法开始，累计获得数百万次浏览、1k+ GitHub Stars。<br /><br />
   <img src="https://img.shields.io/github/stars/tianxingleo/ACGTI?style=flat-square&color=2563eb" alt="ACGTI stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/ACGTI?style=flat-square&color=0f172a" alt="ACGTI last commit" /> <img src="https://img.shields.io/badge/language-TypeScript-1d4ed8?style=flat-square" alt="ACGTI language" /><br /><br />
-  <a href="https://github.com/tianxingleo/ACGTI">仓库</a> · <a href="https://acgti.tianxingleo.top">网站</a>
+  <a href="https://github.com/tianxingleo/ACGTI">仓库</a> · <a href="https://acgti.tianxingleo.top">在线访问</a>
 </td>
 <td width="50%" valign="top">
   <strong><a href="https://github.com/tianxingleo/BrainDance">BrainDance · 流光·记</a></strong><br />
@@ -75,12 +75,14 @@
 ## 最近更新
 
 <!-- recent-activity:start -->
+- [tianxingleo](https://github.com/tianxingleo/tianxingleo) · 最近一次提交于 2026-10-17
+  - `Merge pull request #1 from tianxingleo/docs/refresh-profile-oct-2026`
+- [tianxingleo.github.io](https://github.com/tianxingleo/tianxingleo.github.io) · 最近一次提交于 2026-10-17
+  - `Site updated: 2026-10-17 01:12:37`
+- [Backend_of_Blog__Powered_by_hexo](https://github.com/tianxingleo/Backend_of_Blog__Powered_by_hexo) · 最近一次提交于 2026-10-16
+  - `新增文章：TIC第二节例会Hexo博客指南`
 - [dsh-memory-plugin](https://github.com/tianxingleo/dsh-memory-plugin) · 最近一次提交于 2026-09-04
   - `docs: 更新 README，修正描述和格式，添加注意事项`
-- [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · 最近一次提交于 2026-08-28
-  - `chore: 补充 .gitignore 忽略审计文档与调试输出产物`
-- [ACGTI](https://github.com/tianxingleo/ACGTI) · 最近一次提交于 2026-08-28
-  - `docs(audit): 审计三件套转为仅本地留存，从版本库移除`
 <!-- recent-activity:end -->
 
 ## 常用工具
