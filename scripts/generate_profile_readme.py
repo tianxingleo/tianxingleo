@@ -1,4 +1,3 @@
-import datetime as dt
 import json
 import os
 import urllib.parse
@@ -15,37 +14,35 @@ FEATURED_REPOS = [
         "name": "ACGTI",
         "title_en": "ACGTI",
         "title_zh": "ACGTI",
-        "desc_en": "An ACG-themed personality test project with strong character-driven interaction and shareable product presentation.",
-        "desc_zh": "一个偏角色化互动与产品表达的 ACG 主题人格测试项目。",
-        "links": [("Live Demo", "https://acgti.tianxingleo.top")],
+        "desc_en": "A playful ACG personality quiz built with Vue 3 and TypeScript. Reached millions of views and 1k+ GitHub stars.",
+        "desc_zh": "基于 Vue 3 / TypeScript 的 ACG 人格测试。从一个晚上的想法开始，累计获得数百万次浏览、1k+ GitHub Stars。",
+        "links": [["Live site","https://acgti.tianxingleo.top"]],
     },
     {
         "name": "BrainDance",
-        "title_en": "BrainDance",
-        "title_zh": "BrainDance",
-        "desc_en": "An AI project line around reconstruction, semantic understanding, retrieval, and interactive memory experiences.",
-        "desc_zh": "围绕重建、语义理解、检索与交互式记忆体验展开的 AI 项目方向。",
+        "title_en": "BrainDance · 流光·记",
+        "title_zh": "BrainDance · 流光·记",
+        "desc_en": "Exploring searchable, interactive spatial memories with 3D Gaussian Splatting, scene understanding and retrieval.",
+        "desc_zh": "尝试用三维高斯泼溅、场景理解与检索，把生活片段变成可以交互和探索的空间记忆。",
         "links": [],
     },
     {
-        "name": "school-runing-dut",
-        "title_en": "DUT Campus Run Script",
-        "title_zh": "DUT 校园跑脚本",
-        "desc_en": "A campus running automation script built for the DUT Development Zone campus, focused on practical workflow automation.",
-        "desc_zh": "面向大连理工大学开发区校区校园跑场景的自动化脚本项目，强调实用性和流程自动化。",
+        "name": "dlut-nihongo-quiz",
+        "title_en": "DLUT Study Quiz",
+        "title_zh": "大工多学科复习题库",
+        "desc_en": "A browser-based study tool with 6,000+ questions spanning Japanese and university courses. Built with Vue 3, Vite and local storage.",
+        "desc_zh": "面向日语及多门大学课程的练习工具，收录 6000+ 道题，使用 Vue 3、Vite 与浏览器本地存储。",
         "links": [],
     },
     {
         "name": "Supercore-Site-Pro",
         "title_en": "Supercore Site Pro",
         "title_zh": "Supercore Site Pro",
-        "desc_en": "A Swiss-style enterprise site with 3D presentation and AI-assisted product communication.",
-        "desc_zh": "一个带有 3D 展示与 AI 辅助表达的瑞士风企业官网项目。",
-        "links": [("Website", "https://supercore.hk")],
+        "desc_en": "An enterprise website exploring Swiss-inspired design, 3D visualisation and AI-powered semantic search.",
+        "desc_zh": "融合瑞士国际主义设计、3D 可视化和 AI 语义搜索的企业网站项目。",
+        "links": [["Website","https://supercore.hk"]],
     },
 ]
-
-RECENT_LIMIT = 5
 
 
 def gh_get(url: str, token: str | None):
@@ -109,7 +106,9 @@ def repo_card(repo: dict, config: dict, lang: str) -> str:
 def generate_featured_section(repos: list[dict], lang: str) -> str:
     cards = []
     for config in FEATURED_REPOS:
-        repo = next(item for item in repos if item["name"] == config["name"])
+        repo = next((item for item in repos if item["name"] == config["name"]), None)
+        if repo is None:
+            continue
         cards.append(repo_card(repo, config, lang))
 
     rows = []
@@ -117,50 +116,6 @@ def generate_featured_section(repos: list[dict], lang: str) -> str:
         second = cards[i + 1] if i + 1 < len(cards) else '<td width="50%"></td>'
         rows.append(f"<tr>\n{cards[i]}\n{second}\n</tr>")
     return "<table>\n" + "\n".join(rows) + "\n</table>"
-
-
-def generate_recent_section(repos: list[dict], lang: str) -> str:
-    token = os.getenv("GITHUB_TOKEN")
-    items = []
-    search_headers = {
-        "Accept": "application/vnd.github.cloak-preview+json",
-        "User-Agent": "Codex-Profile-Generator",
-        **({"Authorization": f"Bearer {token}"} if token else {}),
-    }
-    req = urllib.request.Request(
-        f"https://api.github.com/search/commits?q=author:{OWNER}+user:{OWNER}&sort=author-date&order=desc&per_page=20",
-        headers=search_headers,
-    )
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        search_result = json.load(resp)
-
-    seen_repos = set()
-    recent_commits = []
-    for item in search_result.get("items", []):
-        repo_name = item["repository"]["name"]
-        if repo_name in seen_repos:
-            continue
-        seen_repos.add(repo_name)
-        recent_commits.append(
-            {
-                "repo_name": repo_name,
-                "repo_url": item["repository"]["html_url"],
-                "date": item["commit"]["author"]["date"],
-                "message": item["commit"]["message"].strip().splitlines()[0],
-            }
-        )
-        if len(recent_commits) >= RECENT_LIMIT:
-            break
-
-    for entry in recent_commits:
-        created = dt.datetime.fromisoformat(entry["date"].replace("Z", "+00:00")).strftime("%Y-%m-%d")
-        if lang == "en":
-            header = f'- [{entry["repo_name"]}]({entry["repo_url"]}) · latest commit on {created}'
-        else:
-            header = f'- [{entry["repo_name"]}]({entry["repo_url"]}) · 最近一次提交于 {created}'
-        items.append("\n".join([header, f'  - `{entry["message"]}`']))
-
-    return "\n".join(items)
 
 
 def replace_between(text: str, marker: str, content: str) -> str:
@@ -171,20 +126,11 @@ def replace_between(text: str, marker: str, content: str) -> str:
     return f"{before}{start}\n{content}\n{end}{after}"
 
 
-def read_existing_section(path: Path, marker: str) -> str:
+def update_file(path: Path, featured: str):
     text = path.read_text(encoding="utf-8")
-    start = f"<!-- {marker}:start -->"
-    end = f"<!-- {marker}:end -->"
-    _, rest = text.split(start, 1)
-    existing, _ = rest.split(end, 1)
-    return existing.strip()
-
-
-def update_file(path: Path, featured: str, recent: str):
-    text = path.read_text(encoding="utf-8")
-    text = replace_between(text, "featured-projects", featured)
-    text = replace_between(text, "recent-activity", recent)
-    path.write_text(text, encoding="utf-8")
+    refreshed = replace_between(text, "featured-projects", featured)
+    if refreshed != text:
+        path.write_text(refreshed, encoding="utf-8")
 
 
 def main():
@@ -196,15 +142,8 @@ def main():
     featured_en = generate_featured_section(repos, "en")
     featured_zh = generate_featured_section(repos, "zh")
 
-    try:
-        recent_en = generate_recent_section(repos, "en")
-        recent_zh = generate_recent_section(repos, "zh")
-    except Exception:
-        recent_en = read_existing_section(readme_en, "recent-activity")
-        recent_zh = read_existing_section(readme_zh, "recent-activity")
-
-    update_file(readme_en, featured_en, recent_en)
-    update_file(readme_zh, featured_zh, recent_zh)
+    update_file(readme_en, featured_en)
+    update_file(readme_zh, featured_zh)
 
 
 if __name__ == "__main__":
