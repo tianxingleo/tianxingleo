@@ -34,28 +34,28 @@ I enjoy building things that people can actually use — from a small web idea s
 <td width="50%" valign="top">
   <strong><a href="https://github.com/tianxingleo/ACGTI">ACGTI</a></strong><br />
   A playful ACG personality quiz built with Vue 3 and TypeScript. Reached millions of views and 1k+ GitHub stars.<br /><br />
-  <img src="https://img.shields.io/github/stars/tianxingleo/ACGTI?style=flat-square&color=2563eb" alt="GitHub stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/ACGTI?style=flat-square&color=64748b" alt="Last commit" /><br /><br />
-  <a href="https://github.com/tianxingleo/ACGTI">Source</a> · <a href="https://acgti.tianxingleo.top">Live site</a>
+  <img src="https://img.shields.io/github/stars/tianxingleo/ACGTI?style=flat-square&color=2563eb" alt="ACGTI stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/ACGTI?style=flat-square&color=0f172a" alt="ACGTI last commit" /> <img src="https://img.shields.io/badge/language-TypeScript-1d4ed8?style=flat-square" alt="ACGTI language" /><br /><br />
+  <a href="https://github.com/tianxingleo/ACGTI">Repository</a> · <a href="https://acgti.tianxingleo.top">Live site</a>
 </td>
 <td width="50%" valign="top">
   <strong><a href="https://github.com/tianxingleo/BrainDance">BrainDance · 流光·记</a></strong><br />
   Exploring searchable, interactive spatial memories with 3D Gaussian Splatting, scene understanding and retrieval.<br /><br />
-  <img src="https://img.shields.io/github/stars/tianxingleo/BrainDance?style=flat-square&color=2563eb" alt="GitHub stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/BrainDance?style=flat-square&color=64748b" alt="Last commit" /><br /><br />
-  <a href="https://github.com/tianxingleo/BrainDance">Source</a>
+  <img src="https://img.shields.io/github/stars/tianxingleo/BrainDance?style=flat-square&color=2563eb" alt="BrainDance stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/BrainDance?style=flat-square&color=0f172a" alt="BrainDance last commit" /> <img src="https://img.shields.io/badge/language-Python-1d4ed8?style=flat-square" alt="BrainDance language" /><br /><br />
+  <a href="https://github.com/tianxingleo/BrainDance">Repository</a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
   <strong><a href="https://github.com/tianxingleo/dlut-nihongo-quiz">DLUT Study Quiz</a></strong><br />
   A browser-based study tool with 6,000+ questions spanning Japanese and university courses. Built with Vue 3, Vite and local storage.<br /><br />
-  <img src="https://img.shields.io/github/stars/tianxingleo/dlut-nihongo-quiz?style=flat-square&color=2563eb" alt="GitHub stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/dlut-nihongo-quiz?style=flat-square&color=64748b" alt="Last commit" /><br /><br />
-  <a href="https://github.com/tianxingleo/dlut-nihongo-quiz">Source</a>
+  <img src="https://img.shields.io/github/stars/tianxingleo/dlut-nihongo-quiz?style=flat-square&color=2563eb" alt="dlut-nihongo-quiz stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/dlut-nihongo-quiz?style=flat-square&color=0f172a" alt="dlut-nihongo-quiz last commit" /> <img src="https://img.shields.io/badge/language-Python-1d4ed8?style=flat-square" alt="dlut-nihongo-quiz language" /><br /><br />
+  <a href="https://github.com/tianxingleo/dlut-nihongo-quiz">Repository</a>
 </td>
 <td width="50%" valign="top">
   <strong><a href="https://github.com/tianxingleo/Supercore-Site-Pro">Supercore Site Pro</a></strong><br />
   An enterprise website exploring Swiss-inspired design, 3D visualisation and AI-powered semantic search.<br /><br />
-  <img src="https://img.shields.io/github/stars/tianxingleo/Supercore-Site-Pro?style=flat-square&color=2563eb" alt="GitHub stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/Supercore-Site-Pro?style=flat-square&color=64748b" alt="Last commit" /><br /><br />
-  <a href="https://github.com/tianxingleo/Supercore-Site-Pro">Source</a> · <a href="https://supercore.hk">Website</a>
+  <img src="https://img.shields.io/github/stars/tianxingleo/Supercore-Site-Pro?style=flat-square&color=2563eb" alt="Supercore-Site-Pro stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/Supercore-Site-Pro?style=flat-square&color=0f172a" alt="Supercore-Site-Pro last commit" /> <img src="https://img.shields.io/badge/language-Vue-1d4ed8?style=flat-square" alt="Supercore-Site-Pro language" /><br /><br />
+  <a href="https://github.com/tianxingleo/Supercore-Site-Pro">Repository</a> · <a href="https://supercore.hk">Website</a>
 </td>
 </tr>
 </table>

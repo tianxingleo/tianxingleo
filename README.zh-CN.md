@@ -36,13 +36,13 @@
 <td width="50%" valign="top">
   <strong><a href="https://github.com/tianxingleo/ACGTI">ACGTI</a></strong><br />
   基于 Vue 3 / TypeScript 的 ACG 人格测试。从一个晚上的想法开始，累计获得数百万次浏览、1k+ GitHub Stars。<br /><br />
-  <img src="https://img.shields.io/github/stars/tianxingleo/ACGTI?style=flat-square&color=2563eb" alt="GitHub stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/ACGTI?style=flat-square&color=64748b" alt="Last commit" /><br /><br />
-  <a href="https://github.com/tianxingleo/ACGTI">仓库</a> · <a href="https://acgti.tianxingleo.top">在线体验</a>
+  <img src="https://img.shields.io/github/stars/tianxingleo/ACGTI?style=flat-square&color=2563eb" alt="ACGTI stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/ACGTI?style=flat-square&color=0f172a" alt="ACGTI last commit" /> <img src="https://img.shields.io/badge/language-TypeScript-1d4ed8?style=flat-square" alt="ACGTI language" /><br /><br />
+  <a href="https://github.com/tianxingleo/ACGTI">仓库</a> · <a href="https://acgti.tianxingleo.top">网站</a>
 </td>
 <td width="50%" valign="top">
   <strong><a href="https://github.com/tianxingleo/BrainDance">BrainDance · 流光·记</a></strong><br />
   尝试用三维高斯泼溅、场景理解与检索，把生活片段变成可以交互和探索的空间记忆。<br /><br />
-  <img src="https://img.shields.io/github/stars/tianxingleo/BrainDance?style=flat-square&color=2563eb" alt="GitHub stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/BrainDance?style=flat-square&color=64748b" alt="Last commit" /><br /><br />
+  <img src="https://img.shields.io/github/stars/tianxingleo/BrainDance?style=flat-square&color=2563eb" alt="BrainDance stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/BrainDance?style=flat-square&color=0f172a" alt="BrainDance last commit" /> <img src="https://img.shields.io/badge/language-Python-1d4ed8?style=flat-square" alt="BrainDance language" /><br /><br />
   <a href="https://github.com/tianxingleo/BrainDance">仓库</a>
 </td>
 </tr>
@@ -50,13 +50,13 @@
 <td width="50%" valign="top">
   <strong><a href="https://github.com/tianxingleo/dlut-nihongo-quiz">大工多学科复习题库</a></strong><br />
   面向日语及多门大学课程的练习工具，收录 6000+ 道题，使用 Vue 3、Vite 与浏览器本地存储。<br /><br />
-  <img src="https://img.shields.io/github/stars/tianxingleo/dlut-nihongo-quiz?style=flat-square&color=2563eb" alt="GitHub stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/dlut-nihongo-quiz?style=flat-square&color=64748b" alt="Last commit" /><br /><br />
+  <img src="https://img.shields.io/github/stars/tianxingleo/dlut-nihongo-quiz?style=flat-square&color=2563eb" alt="dlut-nihongo-quiz stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/dlut-nihongo-quiz?style=flat-square&color=0f172a" alt="dlut-nihongo-quiz last commit" /> <img src="https://img.shields.io/badge/language-Python-1d4ed8?style=flat-square" alt="dlut-nihongo-quiz language" /><br /><br />
   <a href="https://github.com/tianxingleo/dlut-nihongo-quiz">仓库</a>
 </td>
 <td width="50%" valign="top">
   <strong><a href="https://github.com/tianxingleo/Supercore-Site-Pro">Supercore Site Pro</a></strong><br />
   融合瑞士国际主义设计、3D 可视化和 AI 语义搜索的企业网站项目。<br /><br />
-  <img src="https://img.shields.io/github/stars/tianxingleo/Supercore-Site-Pro?style=flat-square&color=2563eb" alt="GitHub stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/Supercore-Site-Pro?style=flat-square&color=64748b" alt="Last commit" /><br /><br />
+  <img src="https://img.shields.io/github/stars/tianxingleo/Supercore-Site-Pro?style=flat-square&color=2563eb" alt="Supercore-Site-Pro stars" /> <img src="https://img.shields.io/github/last-commit/tianxingleo/Supercore-Site-Pro?style=flat-square&color=0f172a" alt="Supercore-Site-Pro last commit" /> <img src="https://img.shields.io/badge/language-Vue-1d4ed8?style=flat-square" alt="Supercore-Site-Pro language" /><br /><br />
   <a href="https://github.com/tianxingleo/Supercore-Site-Pro">仓库</a> · <a href="https://supercore.hk">网站</a>
 </td>
 </tr>
