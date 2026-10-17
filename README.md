@@ -64,7 +64,6 @@ I enjoy building things that people can actually use — from a small web idea s
 ## Notes from the journey
 
 - [How ACGTI reached millions of views](https://tianxingleo.top/posts/9bcf27f17565/) — building quickly, iterating in public, and learning from real users.
-- [Build a personal blog in one hour](https://tianxingleo.top/archives/) — workshop notes for students starting from zero.
 - [All blog posts](https://tianxingleo.top/archives/) — coding, research, course notes and the occasional detour.
 
 ## What I use
