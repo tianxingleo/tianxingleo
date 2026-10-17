@@ -83,12 +83,6 @@ I enjoy building things that people can actually use — from a small web idea s
   - `docs: 更新 README，修正描述和格式，添加注意事项`
 <!-- recent-activity:end -->
 
-## What I use
-
-**Python · C++ · TypeScript · Vue · PyTorch · Git · Docker · Linux**
-
-I'm more interested in what a tool helps me build than in collecting a long list of badges.
-
 ## GitHub Snapshot
 
 <p align="center">
