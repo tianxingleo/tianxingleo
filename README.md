@@ -1,4 +1,6 @@
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=160&text=Tianxing%20Li%20%2F%20Leo&fontSize=39&fontColor=ffffff&desc=Open%20Source%20%7C%203D%20Vision%20%7C%20Building%20Things&descSize=17&descAlignY=69&theme=github_dark" alt="Tianxing Li / Leo" /></p>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=190&text=Tianxing%20Leo&fontSize=42&fontColor=ffffff&desc=AI%20Systems%20%7C%203D%20Reconstruction%20%7C%20Creative%20Web%20Projects&descSize=18&descAlignY=64&theme=github_dark" alt="Tianxing Leo banner" />
+</p>
 
 <p align="center"><strong> Tianxing Li (Leo) · 李天行</strong></p>
 
@@ -7,10 +9,12 @@
 <p align="center"><strong>English</strong> · <a href="./README.zh-CN.md">简体中文</a></p>
 
 <p align="center">
-  <a href="https://tianxingleo.top">Personal website / 博客</a> ·
-  <a href="https://tianxingleo.top/about/">About / 关于</a> ·
-  <a href="mailto:tianxingleo@gmail.com">Email / 邮箱</a>
+  <a href="https://tianxingleo.top"><img src="https://img.shields.io/badge/Website-0f172a?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website badge" /></a>
+  <a href="mailto:tianxingleo@gmail.com"><img src="https://img.shields.io/badge/Email-1d4ed8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email badge" /></a>
+  <a href="https://github.com/tianxingleo?tab=repositories"><img src="https://img.shields.io/badge/Projects-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="Projects badge" /></a>
 </p>
+
+<p align="center"><a href="https://tianxingleo.top/about/">About me</a></p>
 
 ## Hi, I'm Leo
 
@@ -66,20 +70,62 @@ I enjoy building things that people can actually use — from a small web idea s
 - [How ACGTI reached millions of views](https://tianxingleo.top/posts/9bcf27f17565/) — building quickly, iterating in public, and learning from real users.
 - [All blog posts](https://tianxingleo.top/archives/) — coding, research, course notes and the occasional detour.
 
+## Recent Updates
+
+<!-- recent-activity:start -->
+- [dsh-memory-plugin](https://github.com/tianxingleo/dsh-memory-plugin) · latest commit on 2026-09-04
+  - `docs: 更新 README，修正描述和格式，添加注意事项`
+- [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · latest commit on 2026-08-28
+  - `chore: 补充 .gitignore 忽略审计文档与调试输出产物`
+- [ACGTI](https://github.com/tianxingleo/ACGTI) · latest commit on 2026-08-28
+  - `docs(audit): 审计三件套转为仅本地留存，从版本库移除`
+<!-- recent-activity:end -->
+
 ## What I use
 
 **Python · C++ · TypeScript · Vue · PyTorch · Git · Docker · Linux**
 
 I'm more interested in what a tool helps me build than in collecting a long list of badges.
 
-## GitHub activity
+## GitHub Snapshot
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tianxingleo&theme=tokyonight" />
     <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tianxingleo&theme=default" />
-    <img width="96%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tianxingleo&theme=default" alt="GitHub activity overview" />
+    <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tianxingleo&theme=default" alt="GitHub profile summary" />
   </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tianxingleo&theme=tokyonight" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tianxingleo&theme=default" />
+    <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tianxingleo&theme=default" alt="GitHub stats summary" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tianxingleo&theme=tokyonight" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tianxingleo&theme=default" />
+    <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tianxingleo&theme=default" alt="Top languages by repo" />
+  </picture>
+</p>
+
+## Tech Focus
+
+- **Languages**: Python, C++, TypeScript, JavaScript, HTML/CSS
+- **Tools and Frameworks**: Vue, Flutter, Git, GitHub Actions, VS Code, PyCharm
+- **Current Interests**: AI systems, 3D vision, multimodal retrieval, world models, and product-oriented open source
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,cpp,ts,js,vue,flutter,git,github,vscode&theme=dark" alt="Skill icons" />
+</p>
+
+<h2 align="center">AI Coding Activity</h2>
+
+<p align="center">
+  <a href="https://tokscale.ai/u/tianxingleo">
+    <img src="https://tokscale.ai/api/embed/tianxingleo/svg?view=3d&tokens=compact&cost=compact" alt="Tokscale Stats" />
+  </a>
 </p>
 
 <p align="center"><em>Always curious. Usually building something.</em></p>
