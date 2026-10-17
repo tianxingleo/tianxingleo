@@ -66,7 +66,6 @@
 ## 写过的东西
 
 - [ACGTI：一个网站从想法到数百万浏览的复盘](https://tianxingleo.top/posts/9bcf27f17565/)——关于开发、设计、传播和真实用户反馈。
-- [TIC 例会：一小时从零搭建个人博客](https://tianxingleo.top/archives/)——给零基础同学准备的实操教程。
 - [博客文章归档](https://tianxingleo.top/archives/)——科研记录、技术折腾、学习笔记，以及生活里的小事。
 
 ## 常用工具
