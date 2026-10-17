@@ -1,3 +1,4 @@
+import datetime as dt
 import json
 import os
 import urllib.parse
@@ -16,7 +17,7 @@ FEATURED_REPOS = [
         "title_zh": "ACGTI",
         "desc_en": "A playful ACG personality quiz built with Vue 3 and TypeScript. Reached millions of views and 1k+ GitHub stars.",
         "desc_zh": "基于 Vue 3 / TypeScript 的 ACG 人格测试。从一个晚上的想法开始，累计获得数百万次浏览、1k+ GitHub Stars。",
-        "links": [["Live site","https://acgti.tianxingleo.top"]],
+        "links": [["Live Demo","https://acgti.tianxingleo.top"]],
     },
     {
         "name": "BrainDance",
@@ -44,6 +45,7 @@ FEATURED_REPOS = [
     },
 ]
 
+RECENT_LIMIT = 5
 
 def gh_get(url: str, token: str | None):
     req = urllib.request.Request(
@@ -118,6 +120,50 @@ def generate_featured_section(repos: list[dict], lang: str) -> str:
     return "<table>\n" + "\n".join(rows) + "\n</table>"
 
 
+def generate_recent_section(repos: list[dict], lang: str) -> str:
+    token = os.getenv("GITHUB_TOKEN")
+    items = []
+    search_headers = {
+        "Accept": "application/vnd.github.cloak-preview+json",
+        "User-Agent": "Codex-Profile-Generator",
+        **({"Authorization": f"Bearer {token}"} if token else {}),
+    }
+    req = urllib.request.Request(
+        f"https://api.github.com/search/commits?q=author:{OWNER}+user:{OWNER}&sort=author-date&order=desc&per_page=20",
+        headers=search_headers,
+    )
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        search_result = json.load(resp)
+
+    seen_repos = set()
+    recent_commits = []
+    for item in search_result.get("items", []):
+        repo_name = item["repository"]["name"]
+        if repo_name in seen_repos:
+            continue
+        seen_repos.add(repo_name)
+        recent_commits.append(
+            {
+                "repo_name": repo_name,
+                "repo_url": item["repository"]["html_url"],
+                "date": item["commit"]["author"]["date"],
+                "message": item["commit"]["message"].strip().splitlines()[0],
+            }
+        )
+        if len(recent_commits) >= RECENT_LIMIT:
+            break
+
+    for entry in recent_commits:
+        created = dt.datetime.fromisoformat(entry["date"].replace("Z", "+00:00")).strftime("%Y-%m-%d")
+        if lang == "en":
+            header = f'- [{entry["repo_name"]}]({entry["repo_url"]}) · latest commit on {created}'
+        else:
+            header = f'- [{entry["repo_name"]}]({entry["repo_url"]}) · 最近一次提交于 {created}'
+        items.append("\n".join([header, f'  - `{entry["message"]}`']))
+
+    return "\n".join(items)
+
+
 def replace_between(text: str, marker: str, content: str) -> str:
     start = f"<!-- {marker}:start -->"
     end = f"<!-- {marker}:end -->"
@@ -126,11 +172,20 @@ def replace_between(text: str, marker: str, content: str) -> str:
     return f"{before}{start}\n{content}\n{end}{after}"
 
 
-def update_file(path: Path, featured: str):
+def read_existing_section(path: Path, marker: str) -> str:
     text = path.read_text(encoding="utf-8")
-    refreshed = replace_between(text, "featured-projects", featured)
-    if refreshed != text:
-        path.write_text(refreshed, encoding="utf-8")
+    start = f"<!-- {marker}:start -->"
+    end = f"<!-- {marker}:end -->"
+    _, rest = text.split(start, 1)
+    existing, _ = rest.split(end, 1)
+    return existing.strip()
+
+
+def update_file(path: Path, featured: str, recent: str):
+    text = path.read_text(encoding="utf-8")
+    text = replace_between(text, "featured-projects", featured)
+    text = replace_between(text, "recent-activity", recent)
+    path.write_text(text, encoding="utf-8")
 
 
 def main():
@@ -142,8 +197,15 @@ def main():
     featured_en = generate_featured_section(repos, "en")
     featured_zh = generate_featured_section(repos, "zh")
 
-    update_file(readme_en, featured_en)
-    update_file(readme_zh, featured_zh)
+    try:
+        recent_en = generate_recent_section(repos, "en")
+        recent_zh = generate_recent_section(repos, "zh")
+    except Exception:
+        recent_en = read_existing_section(readme_en, "recent-activity")
+        recent_zh = read_existing_section(readme_zh, "recent-activity")
+
+    update_file(readme_en, featured_en, recent_en)
+    update_file(readme_zh, featured_zh, recent_zh)
 
 
 if __name__ == "__main__":
