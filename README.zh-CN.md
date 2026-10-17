@@ -1,4 +1,6 @@
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=160&text=Tianxing%20Li%20%2F%20Leo&fontSize=39&fontColor=ffffff&desc=Open%20Source%20%7C%203D%20Vision%20%7C%20Building%20Things&descSize=17&descAlignY=69&theme=github_dark" alt="Tianxing Li / Leo" /></p>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=190&text=Tianxing%20Leo&fontSize=42&fontColor=ffffff&desc=AI%20Systems%20%7C%203D%20Reconstruction%20%7C%20Creative%20Web%20Projects&descSize=18&descAlignY=64&theme=github_dark" alt="Tianxing Leo banner" />
+</p>
 
 <p align="center"><strong> 李天行 · Tianxing Li (Leo)</strong></p>
 
@@ -7,10 +9,12 @@
 <p align="center"><a href="./README.md">English</a> · <strong>简体中文</strong></p>
 
 <p align="center">
-  <a href="https://tianxingleo.top">Personal website / 博客</a> ·
-  <a href="https://tianxingleo.top/about/">About / 关于</a> ·
-  <a href="mailto:tianxingleo@gmail.com">Email / 邮箱</a>
+  <a href="https://tianxingleo.top"><img src="https://img.shields.io/badge/个人网站-0f172a?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website badge" /></a>
+  <a href="mailto:tianxingleo@gmail.com"><img src="https://img.shields.io/badge/邮箱-1d4ed8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email badge" /></a>
+  <a href="https://github.com/tianxingleo?tab=repositories"><img src="https://img.shields.io/badge/项目列表-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="Projects badge" /></a>
 </p>
+
+<p align="center"><a href="https://tianxingleo.top/about/">关于我</a></p>
 
 ## 你好，我是 Leo
 
@@ -68,20 +72,62 @@
 - [ACGTI：一个网站从想法到数百万浏览的复盘](https://tianxingleo.top/posts/9bcf27f17565/)——关于开发、设计、传播和真实用户反馈。
 - [博客文章归档](https://tianxingleo.top/archives/)——科研记录、技术折腾、学习笔记，以及生活里的小事。
 
+## 最近更新
+
+<!-- recent-activity:start -->
+- [dsh-memory-plugin](https://github.com/tianxingleo/dsh-memory-plugin) · 最近一次提交于 2026-09-04
+  - `docs: 更新 README，修正描述和格式，添加注意事项`
+- [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · 最近一次提交于 2026-08-28
+  - `chore: 补充 .gitignore 忽略审计文档与调试输出产物`
+- [ACGTI](https://github.com/tianxingleo/ACGTI) · 最近一次提交于 2026-08-28
+  - `docs(audit): 审计三件套转为仅本地留存，从版本库移除`
+<!-- recent-activity:end -->
+
 ## 常用工具
 
 **Python · C++ · TypeScript · Vue · PyTorch · Git · Docker · Linux**
 
 工具会不断变化，更重要的是知道自己想做什么、遇到问题时怎样解决。
 
-## GitHub 动态
+## GitHub Snapshot
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tianxingleo&theme=tokyonight" />
     <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tianxingleo&theme=default" />
-    <img width="96%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tianxingleo&theme=default" alt="GitHub activity overview" />
+    <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tianxingleo&theme=default" alt="GitHub profile summary" />
   </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tianxingleo&theme=tokyonight" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tianxingleo&theme=default" />
+    <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tianxingleo&theme=default" alt="GitHub stats summary" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tianxingleo&theme=tokyonight" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tianxingleo&theme=default" />
+    <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tianxingleo&theme=default" alt="Top languages by repo" />
+  </picture>
+</p>
+
+## 技术关注
+
+- **语言**：Python、C++、TypeScript、JavaScript、HTML/CSS
+- **工具与框架**：Vue、Flutter、Git、GitHub Actions、VS Code、PyCharm
+- **持续关注**：AI 系统、3D 视觉、多模态检索、世界模型、产品型开源项目
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,cpp,ts,js,vue,flutter,git,github,vscode&theme=dark" alt="Skill icons" />
+</p>
+
+<h2 align="center">AI Coding Activity</h2>
+
+<p align="center">
+  <a href="https://tokscale.ai/u/tianxingleo">
+    <img src="https://tokscale.ai/api/embed/tianxingleo/svg?view=3d&tokens=compact&cost=compact" alt="Tokscale Stats" />
+  </a>
 </p>
 
 <p align="center"><em>天行健，君子以自强不息。</em></p>
