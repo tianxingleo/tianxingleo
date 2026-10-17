@@ -74,13 +74,11 @@ I enjoy building things that people can actually use — from a small web idea s
 
 <!-- recent-activity:start -->
 - [tianxingleo](https://github.com/tianxingleo/tianxingleo) · latest commit on 2026-10-17
-  - `Merge pull request #1 from tianxingleo/docs/refresh-profile-oct-2026`
+  - `fix: restore automatic recent activity and full project badges`
 - [tianxingleo.github.io](https://github.com/tianxingleo/tianxingleo.github.io) · latest commit on 2026-10-17
   - `Site updated: 2026-10-17 01:12:37`
 - [Backend_of_Blog__Powered_by_hexo](https://github.com/tianxingleo/Backend_of_Blog__Powered_by_hexo) · latest commit on 2026-10-16
   - `新增文章：TIC第二节例会Hexo博客指南`
-- [dsh-memory-plugin](https://github.com/tianxingleo/dsh-memory-plugin) · latest commit on 2026-09-04
-  - `docs: 更新 README，修正描述和格式，添加注意事项`
 <!-- recent-activity:end -->
 
 ## GitHub Snapshot
