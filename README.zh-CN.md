@@ -85,12 +85,6 @@
   - `docs: 更新 README，修正描述和格式，添加注意事项`
 <!-- recent-activity:end -->
 
-## 常用工具
-
-**Python · C++ · TypeScript · Vue · PyTorch · Git · Docker · Linux**
-
-工具会不断变化，更重要的是知道自己想做什么、遇到问题时怎样解决。
-
 ## GitHub Snapshot
 
 <p align="center">
