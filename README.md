@@ -73,12 +73,10 @@ I enjoy building things that people can actually use — from a small web idea s
 ## Recent Updates
 
 <!-- recent-activity:start -->
-- [tianxingleo](https://github.com/tianxingleo/tianxingleo) · latest commit on 2026-10-17
-  - `fix: restore automatic recent activity and full project badges`
 - [tianxingleo.github.io](https://github.com/tianxingleo/tianxingleo.github.io) · latest commit on 2026-10-17
-  - `Site updated: 2026-10-17 01:12:37`
-- [Backend_of_Blog__Powered_by_hexo](https://github.com/tianxingleo/Backend_of_Blog__Powered_by_hexo) · latest commit on 2026-10-16
-  - `新增文章：TIC第二节例会Hexo博客指南`
+  - `Site updated: 2026-10-17 14:49:49`
+- [tianxingleo](https://github.com/tianxingleo/tianxingleo) · latest commit on 2026-10-17
+  - `docs: remove duplicate tools section from README.zh-CN.md`
 <!-- recent-activity:end -->
 
 ## GitHub Snapshot
