@@ -65,6 +65,12 @@ I enjoy building things that people can actually use — from a small web idea s
 </table>
 <!-- featured-projects:end -->
 
+## What I'm building lately
+
+**Making geometry research usable.** I'm exploring sparse-view 3D reconstruction, neural implicit surfaces, and practical pipelines from implicit geometry to usable meshes.
+
+**An AI-assisted static blog.** I'm experimenting with [incrementally generated article summaries and Q&A](https://github.com/tianxingleo/Backend_of_Blog__Powered_by_hexo): use a model during the build, then serve the results as static content without a live API call from visitors.
+
 ## Notes from the journey
 
 - [How ACGTI reached millions of views](https://tianxingleo.top/posts/9bcf27f17565/) — building quickly, iterating in public, and learning from real users.
@@ -100,16 +106,6 @@ I enjoy building things that people can actually use — from a small web idea s
     <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tianxingleo&theme=default" />
     <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tianxingleo&theme=default" alt="Top languages by repo" />
   </picture>
-</p>
-
-## Tech Focus
-
-- **Languages**: Python, C++, TypeScript, JavaScript, HTML/CSS
-- **Tools and Frameworks**: Vue, Flutter, Git, GitHub Actions, VS Code, PyCharm
-- **Current Interests**: AI systems, 3D vision, multimodal retrieval, world models, and product-oriented open source
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python,cpp,ts,js,vue,flutter,git,github,vscode&theme=dark" alt="Skill icons" />
 </p>
 
 <h2 align="center">AI Coding Activity</h2>
