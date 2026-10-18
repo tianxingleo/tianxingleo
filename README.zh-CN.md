@@ -67,6 +67,12 @@
 </table>
 <!-- featured-projects:end -->
 
+## 最近在做的事
+
+**把几何研究做成可运行的系统。** 继续探索稀疏视角三维重建、神经隐式表面以及从隐式几何到可用网格的计算流程。
+
+**让静态博客也拥有 AI 阅读能力。** 正在为 [个人博客](https://tianxingleo.top/) 设计[构建时增量生成的文章摘要与问答](https://github.com/tianxingleo/Backend_of_Blog__Powered_by_hexo)，将模型调用放到发布阶段，而不是要求每位读者实时请求外部服务。
+
 ## 写过的东西
 
 - [ACGTI：一个网站从想法到数百万浏览的复盘](https://tianxingleo.top/posts/9bcf27f17565/)——关于开发、设计、传播和真实用户反馈。
@@ -102,16 +108,6 @@
     <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tianxingleo&theme=default" />
     <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tianxingleo&theme=default" alt="Top languages by repo" />
   </picture>
-</p>
-
-## 技术关注
-
-- **语言**：Python、C++、TypeScript、JavaScript、HTML/CSS
-- **工具与框架**：Vue、Flutter、Git、GitHub Actions、VS Code、PyCharm
-- **持续关注**：AI 系统、3D 视觉、多模态检索、世界模型、产品型开源项目
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python,cpp,ts,js,vue,flutter,git,github,vscode&theme=dark" alt="Skill icons" />
 </p>
 
 <h2 align="center">AI Coding Activity</h2>
