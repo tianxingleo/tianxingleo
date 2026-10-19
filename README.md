@@ -73,10 +73,10 @@ I enjoy building things that people can actually use — from a small web idea s
 ## Recent Updates
 
 <!-- recent-activity:start -->
-- [tianxingleo.github.io](https://github.com/tianxingleo/tianxingleo.github.io) · latest commit on 2026-10-17
-  - `Site updated: 2026-10-17 14:49:49`
-- [tianxingleo](https://github.com/tianxingleo/tianxingleo) · latest commit on 2026-10-17
-  - `docs: remove duplicate tools section from README.zh-CN.md`
+- [tianxingleo.github.io](https://github.com/tianxingleo/tianxingleo.github.io) · latest commit on 2026-10-19
+  - `Site updated: 2026-10-19 17:39:58`
+- [Backend_of_Blog__Powered_by_hexo](https://github.com/tianxingleo/Backend_of_Blog__Powered_by_hexo) · latest commit on 2026-10-18
+  - `AI摘要卡片精简：移除AI预生成标签与常见问答区块，修复README编码`
 <!-- recent-activity:end -->
 
 ## GitHub Snapshot
