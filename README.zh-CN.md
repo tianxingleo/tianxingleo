@@ -76,7 +76,7 @@
 
 <!-- recent-activity:start -->
 - [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · 最近一次提交于 2026-11-10
-  - `feat(creativity): 新增「创造性思维与创新方法」题库（部分题库 128 题）`
+  - `style: 修复 rebase 融合引入的 prettier 格式问题（CI format:check 挂）`
 - [tianxingleo.github.io](https://github.com/tianxingleo/tianxingleo.github.io) · 最近一次提交于 2026-10-19
   - `Site updated: 2026-10-19 17:39:58`
 - [Backend_of_Blog__Powered_by_hexo](https://github.com/tianxingleo/Backend_of_Blog__Powered_by_hexo) · 最近一次提交于 2026-10-18
