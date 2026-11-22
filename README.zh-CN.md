@@ -75,6 +75,10 @@
 ## 最近更新
 
 <!-- recent-activity:start -->
+- [sticks3-visual-novels](https://github.com/tianxingleo/sticks3-visual-novels) · 最近一次提交于 2026-11-22
+  - `补充编译指南与 StickS3 真机照片`
+- [dafeiyu4esp32](https://github.com/tianxingleo/dafeiyu4esp32) · 最近一次提交于 2026-11-22
+  - `补充安装指南与三张设备实拍`
 - [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · 最近一次提交于 2026-11-10
   - `style: 修复 rebase 融合引入的 prettier 格式问题（CI format:check 挂）`
 - [tianxingleo.github.io](https://github.com/tianxingleo/tianxingleo.github.io) · 最近一次提交于 2026-10-19
