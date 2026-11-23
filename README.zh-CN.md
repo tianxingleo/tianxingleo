@@ -75,16 +75,14 @@
 ## 最近更新
 
 <!-- recent-activity:start -->
+- [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · 最近一次提交于 2026-11-23
+  - `拉开首页续刷按钮与说明的间距`
 - [sticks3-visual-novels](https://github.com/tianxingleo/sticks3-visual-novels) · 最近一次提交于 2026-11-22
   - `补充编译指南与 StickS3 真机照片`
 - [dafeiyu4esp32](https://github.com/tianxingleo/dafeiyu4esp32) · 最近一次提交于 2026-11-22
   - `补充安装指南与三张设备实拍`
-- [dlut-nihongo-quiz](https://github.com/tianxingleo/dlut-nihongo-quiz) · 最近一次提交于 2026-11-10
-  - `style: 修复 rebase 融合引入的 prettier 格式问题（CI format:check 挂）`
 - [tianxingleo.github.io](https://github.com/tianxingleo/tianxingleo.github.io) · 最近一次提交于 2026-10-19
   - `Site updated: 2026-10-19 17:39:58`
-- [Backend_of_Blog__Powered_by_hexo](https://github.com/tianxingleo/Backend_of_Blog__Powered_by_hexo) · 最近一次提交于 2026-10-18
-  - `AI摘要卡片精简：移除AI预生成标签与常见问答区块，修复README编码`
 <!-- recent-activity:end -->
 
 ## GitHub Snapshot
